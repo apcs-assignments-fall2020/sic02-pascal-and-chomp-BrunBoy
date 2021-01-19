@@ -14,8 +14,13 @@ public class Chomp
     // or given food was already eaten)
     public static boolean eat(char[][] board, int row, int col)
     {        
-        // YOUR CODE HERE
-        return false;
+        for (int i=0; i<row; i++){
+            for (int j=0; j<col; j++){
+                if (board[i][j]){
+                    board[i][j]= ;
+                }
+            }
+        }
     }
     
     public static void printBoard(char[][] board)

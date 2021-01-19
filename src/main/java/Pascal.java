@@ -7,7 +7,9 @@
 public class Pascal
 {
     public static int[][] pascalTriangle(int n) {
-        // YOUR CODE HERE
-        return null;
+        int[][]mat=new int[n];
+        for (int i=1; i<n; i++){
+            mat[0][0]=i;
+        }
     }
 }
